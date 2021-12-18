@@ -1,5 +1,5 @@
 :root{
-    --background-image: rgb(238, 11, 189);
+    --background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     --text-color:#0669fd;
     --box-shadow: 5px 10px 20px rgba(0,0,0,0.5);
   }
