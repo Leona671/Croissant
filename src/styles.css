@@ -1,0 +1,43 @@
+:root{
+    --background-image: rgb(238, 11, 189);
+    --text-color:#0669fd;
+    --box-shadow: 5px 10px 20px rgba(0,0,0,0.5);
+  }
+  body {
+      font-family:  'Comforter', cursive;;
+      padding: 0 20px;
+      text-align: center;
+      color: var(--text-color);
+      font-size: 25px;
+      background: var(--background-image);
+    }
+    
+    h1, h3 {
+      padding: 15px;
+      margin: 0;
+      font-size: 34px;
+      line-height: 48px;
+      color: #3a13d4;
+    }
+  
+    .flag {
+      display: block;
+      margin: 30px auto;
+      width: 150px;
+    }
+    .button{
+      display: inline-block;
+      justify-content: center;
+      padding: 10px;
+      border: 3px solid rgb(14, 14, 204);
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: var(--box-shadow);
+    }
+    .button:hover{
+      background: var(--text-color);
+      color: white;
+    }
+  
+    
+  
